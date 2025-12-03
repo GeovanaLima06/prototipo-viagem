@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+#logo{
+    width: 150px;
+    height: 40px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.menu{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+
+.caixa-img-logo{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    color: grey;
+}
+.btn-login{
+    padding-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 2px;
+    background-color: #EB662B;
+    border: none;
+}
+
+.categoria{
+    display: flex;
+    flex-direction: row;
+}
+.section-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+.banner{
+    background-image:url("./assets/Section.png");
+    height: 700px;
+    width: 1800px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-repeat: no-repeat;
+   
+}
+
+.texto-banner{
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+
+}
+
+
