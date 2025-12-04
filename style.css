@@ -45,10 +45,14 @@ ul {
     color: grey;
 }
 .btn-login{
+    color: white;
+    height: 44px;
+    width: 83.31px;
     padding-top: 10px;
     border-radius: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     padding: 10px;
     gap: 2px;
@@ -69,21 +73,107 @@ ul {
 }
 .banner{
     background-image:url("./assets/Section.png");
-    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 702.13px;
     width: 1800px;
-    border-radius: 15px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-     background-repeat: no-repeat;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+
+}
+
+
+
+
+.texto-banner{
+    font-size: 69.73px;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-banner-2{
+    font-size: 14.65px;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.opcoes-pesquisa{
+    background-color: white;
+    height: 80px;
+    width: 850px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    border-radius: 20px;
+
+}
+
+.quadrado{
+    border: 1px solid lightgrey;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
    
 }
 
-.texto-banner{
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
+.where{
+    display: flex;
+    flex-direction: row;
+}
 
+.when{
+    display: flex;
+    flex-direction: row;
+}
+
+.type{
+    display: flex;
+    flex-direction: row;
+}
+
+.texto-pesquisa{
+    font-size: 13.67px;
+    color: #717171;
+}
+
+.caixa-subtexto-banner{
+    padding: 10px;
+}
+
+.btn-search{
+    background-color: #EB662B;
+    color: white;
+    width: 100.95px;
+    height: 40px;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-pesquisa{
+    font-size: 13.67px;
+    color: grey;
+}
+
+.i{
+    color: #EB662B;
 }
 
 
