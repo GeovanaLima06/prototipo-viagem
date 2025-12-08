@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: "Roboto", sans-serif;
 }
 
+
+.inter- {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
 li a{
     text-decoration: none;
     font-size: 20px;
@@ -24,6 +33,7 @@ ul {
     justify-content: center;
     
 }
+
 .menu{
     height: 80px;
     display: flex;
@@ -72,7 +82,7 @@ ul {
    
 }
 .banner{
-    background-image:url("./assets/Section.png");
+    background-image:url(./assets/caixa-img-logo/Section.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 702.13px;
@@ -100,7 +110,7 @@ ul {
 
 .texto-banner-2{
     font-size: 14.65px;
-    font-weight: 100;
+    font-weight: 300;
     color: white;
     display: flex;
     justify-content: center;
@@ -119,6 +129,7 @@ ul {
     gap: 60px;
     border-radius: 20px;
 
+
 }
 
 .quadrado{
@@ -126,6 +137,7 @@ ul {
     height: 50px;
     width: 50px;
     border-radius: 10px;
+    
    
 }
 
@@ -142,6 +154,8 @@ ul {
 .type{
     display: flex;
     flex-direction: row;
+    
+    
 }
 
 .texto-pesquisa{
@@ -199,12 +213,60 @@ ul {
 }
 
 .titulo-choose{
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 19px;
+    font-weight: 600;
     padding-bottom: 10px;
-
+ 
 }
 
 .texto-choose{
-    
+    font-size: 15px;
+    font-weight:400;
+    padding-bottom: 10px;
 }
+
+.destinação{
+    height: 350px;
+    width: 1320px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.trending{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trendings{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.titulo-trending{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.tituloo-trending{
+    font-size: 15px;
+    font-weight:400;
+}
+
+.titulo-trend{
+    font-size: 15.25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-trend{
+    font-size: 15px;
+    font-weight:400;
+    display: flex;
+    justify-content: center;
+}
+
