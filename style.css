@@ -237,12 +237,14 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+   
 }
 
 .trendings{
     display: flex;
     flex-direction:row;
     justify-content: space-between;
+     margin-top: 15px;
 }
 
 .titulo-trending{
@@ -270,3 +272,60 @@ ul {
     justify-content: center;
 }
 
+.encontrar{
+    width: 1320px;
+    margin: auto;
+}
+
+.popular{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caixa-find{
+    display: flex;
+    flex-direction: row;
+}
+
+.find{
+
+    border: 1px solid gray;
+    height:  388.31px;
+    width:   300px;
+    border-radius: 12px;
+    
+    
+}
+
+.tours{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-grey{
+    font-size: 13.67px;
+    color: grey;
+}
+
+.texto-principal{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.titulo-popular{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.texto.quantidade{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+
+}
+
+.caixa-days{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
